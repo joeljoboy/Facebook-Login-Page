@@ -7,16 +7,21 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
 </head>
-<body>
-    <div class="container">
-        <div class="left">
-            <img src="Facebook_Logo_(2019).svg.png" alt="">
-            <p>Facebook helps you connect and share with the people in your life</p>
+<body class="bg-gray-200">
+    <div class="container mt-48 flex mx-auto items-center justify-center">
+        <div class="left mx-14">
+            <img class="w-60" src="Facebook_Logo_(2019).svg.png" alt="">
+            <p class="text-3xl mx-1 my-3">Facebook helps you connect and share with the people in your life</p>
         </div>
-        <div class="right">
-            <input type="text" placeholder="Email address or phone number">
-            <input type="password" placeholder="Password">
-            <button class="">Log In</button>
+        <div class="right flex flex-col bg-white p-8 rounded-lg w-1/4">
+            <input class="px-8 h-12 my-2 border border-2 border-gray-200 rounded-lg" type="text" placeholder="Email address or phone number">
+            <input class="px-8 h-12 my-2 border border-2 border-gray-200 rounded-lg" type="password" placeholder="Password">
+            <button type="button" class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center  mt-2  mb-2">Log In</button>
+
+            <span>Forgotten Password?</span>
+            <hr>
+            <button type="button" class="text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center ml-7 mr-7 mt-2">Create Account</button>
+
         </div>
     </div>
 </body>
